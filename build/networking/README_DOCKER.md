@@ -84,6 +84,7 @@ start the infrap4d
 export IPDK_RECIPE=/root/networking-recipe
 export DEPEND_INSTALL=/root/networking-recipe/deps_install
 export SDE_INSTALL=/root/p4-sde/install
+
 export LD_LIBRARY_PATH=$IPDK_RECIPE/install/lib/:$IPDK_RECIPE/install/lib64/:$SDE_INSTALL/lib:$SDE_INSTALL/lib64:$DEPEND_INSTALL/lib:$DEPEND_INSTALL/lib64:$SDE_INSTALL/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 
 ### Set hugepages required for DPDK
